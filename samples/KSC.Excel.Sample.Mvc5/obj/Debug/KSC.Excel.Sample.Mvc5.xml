@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KSC.Excel.Sample.Mvc5</name>
+    </assembly>
+    <members>
+        <member name="M:KSC.Excel.Sample.Mvc5.Controllers.HomeController.Viewer">
+            <summary>The report inside the page (HTML) with a download button.</summary>
+        </member>
+    </members>
+</doc>

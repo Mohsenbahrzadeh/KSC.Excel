@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KSC.Excel.Designer</name>
+    </assembly>
+    <members>
+        <member name="T:KSC.Excel.Designer.Windows.App">
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:KSC.Excel.Designer.Windows.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:KSC.Excel.Designer.Windows.MainWindow">
+            <summary>
+            Desktop shell: hosts the web designer in WebView2 and serves its API in-process (no web server, no port).
+            The designer UI/engine are exactly the ones used on the web, so templates are interchangeable.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:KSC.Excel.Designer.Windows.MainWindow.OnWebResourceRequested(System.Object,Microsoft.Web.WebView2.Core.CoreWebView2WebResourceRequestedEventArgs)">
+            <summary>Answers every request to https://kxl.local/ with the in-process designer host.</summary>
+        </member>
+        <member name="M:KSC.Excel.Designer.Windows.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

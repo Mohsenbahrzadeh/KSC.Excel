@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aH9LYOP2Okg=",
+  "success": true,
+  "projectFilePath": "D:\\M.Bahrzadeh\\KSC.Excel\\src\\KSC.Excel.Designer.Windows\\KSC.Excel.Designer.Windows.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m.bahrzadeh\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
+    "C:\\Users\\m.bahrzadeh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
