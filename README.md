@@ -32,6 +32,14 @@ return this.Excel("Invoice", model, "invoice.xlsx");         // MVC 5 (.NET Fram
 | **Outputs** | `.xlsx` (verified in real Excel; streaming writer: 1 M rows ≈ 12 s / 47 MB), HTML viewer; PDF through the companion KSC.Excel.Pdf |
 | **Import** | turn an existing `.xlsx` into a template |
 
+## Also included
+
+- **More outputs:** Word (`.docx`), CSV (formula-injection safe), stand-alone HTML, PNG — `this.ReportFile("Invoice", model, ReportFormat.Docx)`.
+- **Report server:** register reports once (`o.AddReport(...)`, `app.MapKscExcelReports()`) and users get a **parameter form** (text / number / date / **Jalali date** / checkbox / drop-down), HTML or PDF view, downloads and **drill-down links** between reports.
+- **Scheduler + e-mail:** daily / weekly / monthly / **Persian-monthly** / every-N-minutes jobs, delivered by SMTP or to a folder.
+- **Advanced layout:** multi-level groups with `SUBTOTAL` totals, calculated columns (running total, % of total, previous, rank, moving average), **combo charts** with a secondary axis, Jalali calendar functions, barcodes (QR, Code 128, EAN-13, EAN-8, Code 39).
+- **Template history:** every save keeps the previous version; restore from the designer.
+
 ## Packages
 
 | Package | Target | |
