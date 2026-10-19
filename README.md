@@ -38,6 +38,7 @@ return this.Excel("Invoice", model, "invoice.xlsx");         // MVC 5 (.NET Fram
 - **Report server:** register reports once (`o.AddReport(...)`, `app.MapKscExcelReports()`) and users get a **parameter form** (text / number / date / **Jalali date** / checkbox / drop-down), HTML or PDF view, downloads and **drill-down links** between reports.
 - **Scheduler + e-mail:** daily / weekly / monthly / **Persian-monthly** / every-N-minutes jobs, delivered by SMTP or to a folder.
 - **Advanced layout:** multi-level groups with `SUBTOTAL` totals, calculated columns (running total, % of total, previous, rank, moving average), **combo charts** with a secondary axis, Jalali calendar functions, barcodes (QR, Code 128, EAN-13, EAN-8, Code 39).
+- **Control:** band Filter / Top-N, report roles and row-level security, audit trail, carried-forward page totals in PDF.
 - **Template history:** every save keeps the previous version; restore from the designer.
 
 ## Packages
